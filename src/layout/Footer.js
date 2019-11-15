@@ -1,17 +1,22 @@
-import React from "react"
-import styled from "styled-components"
+import React from "react";
+import styled from "styled-components";
 
 const StyledFooter = styled.footer`
-  grid-area: footer;
   background-color: var(--color-secoundary);
-  height: 34px;
   margin-top: 33px;
-`
+  .github {
+    font-size: 0.7rem;
+  }
+`;
 
 const Footer = () => (
   <StyledFooter>
     <a href="https://www.sulimantwfiq.com">Made by Suliman twfiq</a>
+    <br />
+    <a className="github" href="https://github.com/SulimanTwfiq/moviesdb">
+      open source project github{" "}
+    </a>
   </StyledFooter>
-)
+);
 
-export default Footer
+export default Footer;
