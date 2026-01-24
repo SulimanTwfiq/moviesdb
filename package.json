@@ -9,7 +9,7 @@
     "react-scripts": "3.2.0",
     "styled-components": "^4.4.1",
     "styled-normalize": "^8.0.6",
-    "swr": "^0.1.9"
+    "swr": "^0.1.18"
   },
   "scripts": {
     "start": "react-scripts start",
